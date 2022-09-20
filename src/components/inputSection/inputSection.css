@@ -1,0 +1,32 @@
+input{
+    resize: none;
+    width: 50vw;
+    border: 1px solid transparent;
+}
+
+input:focus{
+    outline: none;
+}
+.title{
+    margin-bottom: 3rem;
+}
+.title>p{
+    color:#90959D;
+}
+.heading{
+   display: flex;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+.expand_icon{
+      color:#90959D;
+      margin-right: 0.5rem;
+}
+.output_div>span{
+    display: flex;
+    align-items: center;
+}

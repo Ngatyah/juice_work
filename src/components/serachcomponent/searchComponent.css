@@ -1,0 +1,42 @@
+.search__bar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 1px solid #90959D;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    align-items: center;
+    
+}
+.search__icon{
+    margin: 0;
+    background-color: #D9F9E6;
+    padding: 0.4rem;
+    border-radius: 0.2rem;
+    color: #347659;
+    font-weight: 500;
+ 
+}
+.icons_collection{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+    color: #90959D;;
+}
+.bunny_icon{
+    background-color: #EA8186;
+    color: white;
+    padding: 0.3rem;
+    border-radius: 50%;
+}
+.cloud_icon{
+    color: #347659;;
+}
+.search_input{
+    color: #90959D;
+}
+.dots_icon{
+    color: black;
+    font-size: 1.5rem;
+}

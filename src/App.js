@@ -1,24 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
-
+import InputSection from './components/inputSection/InputSection';
+import { BsQuestionCircle } from 'react-icons/bs';
+import SearchComponent from './components/serachcomponent/SearchComponent';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+        <SearchComponent />
+        <div className='title'>
+          <h1>Front-End Developer Test Project</h1>
+          <hr />
+          <p>Your goal is to make a page that looks like this one, and has the ability to create H1 text simply by typing / then 1, then typing text, and hitting enter.</p>
+        </div>
+        <InputSection />
+      </div>
+      <BsQuestionCircle className='site_icon' />
     </div>
+
   );
 }
 
