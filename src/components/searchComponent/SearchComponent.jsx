@@ -5,6 +5,11 @@ import { FiArrowDownLeft, FiCloud } from "react-icons/fi";
 import { BsCheck2Circle, BsThreeDotsVertical } from "react-icons/bs";
 import { GiRabbitHead } from "react-icons/gi";
 
+/**
+ * This is the search component we can add more functionality later
+ * @returns {JSX}
+ */
+
 const SearchComponent = () => {
   return (
     <div>

@@ -10,10 +10,12 @@
   text-align: start;
 }
 .site_icon{
-  color:#90959D;
+  background-color: #F3F4F6;
+ color:#90959D;
   position: absolute;
   right: 3rem;
   bottom: 2rem;
+  padding: 0.5rem;
 }
 h5{
   padding: 0;
@@ -21,4 +23,11 @@ h5{
 }
 small{
   color:#90959D;
+}
+
+@media screen and (max-width: 992px){
+  .container{
+    width: 90vw;
+  }
+  
 }

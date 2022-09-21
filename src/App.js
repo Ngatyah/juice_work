@@ -1,7 +1,7 @@
 import './App.css';
 import InputSection from './components/inputSection/InputSection';
 import { BsQuestionCircle } from 'react-icons/bs';
-import SearchComponent from './components/serachcomponent/SearchComponent';
+import SearchComponent from './components/searchComponent/SearchComponent';
 function App() {
   return (
     <div className="App">
@@ -14,7 +14,9 @@ function App() {
         </div>
         <InputSection />
       </div>
+
       <BsQuestionCircle className='site_icon' />
+
     </div>
 
   );
