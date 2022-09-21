@@ -1,3 +1,4 @@
+import React from "react";
 import { render, screen } from "@testing-library/react";
 import ButtonCard from "../ButtonCard";
 import { EXPANDABLE_H1, H1 } from "../../../constants";
