@@ -1,3 +1,4 @@
+import React from 'react';
 import SearchComponent from '../SearchComponent';
 import '../searchComponent.css';
 import { fireEvent, render, screen } from "@testing-library/react";

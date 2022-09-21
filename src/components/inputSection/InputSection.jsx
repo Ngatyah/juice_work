@@ -83,13 +83,13 @@ const InputSection = () => {
     .map((item, index) => {
       if (item.type === H1) {
         return (
-          <h1 data-testid="expandable_button" key={index}>
+          <h1 data-testid="h1-tag" key={index}>
             {item.text}
           </h1>
         );
       } else if (item.type === EXPANDABLE_H1) {
         return (
-          <span data-testid="expandable_button" key={index}>
+          <span data-testid="eh1-tag" key={index}>
             <BiMenu
               onClick={() => expandableHandler(index)}
               className="expand_icon"
