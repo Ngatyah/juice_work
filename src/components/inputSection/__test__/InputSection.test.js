@@ -3,6 +3,7 @@ import InputSection from '../InputSection';
 
 describe("Test InputSection component", () => {
     test("Check if we have input component", async () => {
+
         render(<InputSection />);
         const userInput = await screen.findByTestId("input");
         expect(userInput).toBeInTheDocument();
