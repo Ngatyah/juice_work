@@ -82,10 +82,14 @@ const InputSection = () => {
   const userInputsElement = userInputs
     .map((item, index) => {
       if (item.type === H1) {
-        return <h1 key={index}>{item.text}</h1>;
+        return (
+          <h1 data-testid="expandable_button" key={index}>
+            {item.text}
+          </h1>
+        );
       } else if (item.type === EXPANDABLE_H1) {
         return (
-          <span key={index}>
+          <span data-testid="expandable_button" key={index}>
             <BiMenu
               onClick={() => expandableHandler(index)}
               className="expand_icon"
@@ -99,7 +103,7 @@ const InputSection = () => {
     })
     .reverse();
   return (
-    <div className="output_div">
+    <div data-testid="outputs" className="output_div">
       {userInputsElement}
       <input
         data-testid="input"

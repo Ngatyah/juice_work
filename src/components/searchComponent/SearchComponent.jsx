@@ -24,7 +24,7 @@ const SearchComponent = () => {
           |
           <FiArrowDownLeft />0
         </div>
-        <input className="search_input" />
+        <input data-testid="search-input" className="search_input" />
         <div className="icons_collection">
           <BsCheck2Circle />
           <FiCloud className="cloud_icon" />

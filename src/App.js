@@ -2,6 +2,10 @@ import './App.css';
 import InputSection from './components/inputSection/InputSection';
 import { BsQuestionCircle } from 'react-icons/bs';
 import SearchComponent from './components/searchComponent/SearchComponent';
+/**
+ * The main Component where all other are added
+ * @returns {JSX}
+ */
 function App() {
   return (
     <div className="App">
