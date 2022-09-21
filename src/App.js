@@ -10,13 +10,11 @@ function App() {
         <div className='title'>
           <h1>Front-End Developer Test Project</h1>
           <hr />
-          <p>Your goal is to make a page that looks like this one, and has the ability to create H1 text simply by typing / then 1, then typing text, and hitting enter.</p>
+          <p >Your goal is to make a page that looks like this one, and has the ability to create H1 text simply by typing / then 1, then typing text, and hitting enter.</p>
         </div>
         <InputSection />
       </div>
-
       <BsQuestionCircle className='site_icon' />
-
     </div>
 
   );
