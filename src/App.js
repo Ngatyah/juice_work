@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 import InputSection from './components/inputSection/InputSection';
 import { BsQuestionCircle } from 'react-icons/bs';
 import SearchComponent from './components/searchComponent/SearchComponent';
