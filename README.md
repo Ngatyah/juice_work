@@ -15,3 +15,16 @@ Once you select the Expandable text continue typing. To effect the changes eithe
 
 Press `/+1`. The header text will automaticaaly be converted to Normal text.
 
+## Getting started
+Install packages using yarn and then start the app:
+
+```sh
+yarn
+
+yarn start
+```
+## Testing
+
+```sh
+yarn test
+```
