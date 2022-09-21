@@ -31,14 +31,18 @@ const ButtonCard = ({ setType, setText, text }) => {
       <small className="keyword_class">
         Filtering keyword <span>1</span>{" "}
       </small>
-      <button className="btn" onClick={() => typeSelector(H1)}>
+      <button data-testid={H1} className="btn" onClick={() => typeSelector(H1)}>
         <BsFonts className="icon" />
         <div className="details">
           <h5>Heading 1</h5>
           <small>Shortcut: type # + space</small>
         </div>
       </button>
-      <button className="btn" onClick={() => typeSelector(EXPANDABLE_H1)}>
+      <button
+        data-testid={EXPANDABLE_H1}
+        className="btn"
+        onClick={() => typeSelector(EXPANDABLE_H1)}
+      >
         <BsFonts className="icon" />
         <div className="details">
           <h5>Expandable Heading 1</h5>

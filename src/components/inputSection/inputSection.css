@@ -11,7 +11,7 @@ input:focus{
     margin-bottom: 3rem;
 }
 .title>p{
-    color:#90959D;
+    color:var(--color-primary);
 }
 .heading{
    display: flex;
@@ -23,7 +23,7 @@ input:focus{
   font-weight: bold;
 }
 .expand_icon{
-      color:#90959D;
+      color:var(--color-primary);
       margin-right: 0.5rem;
 }
 .output_div>span{

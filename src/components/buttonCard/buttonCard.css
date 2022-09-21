@@ -4,16 +4,7 @@
     box-shadow: 1px 3px 10px rgb(0 0 0 / 0.2);
     margin-top: 1rem;
 }
-/* .btn{
-    width: 100%;
-    margin: 0.4rem;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    text-decoration: none;
-    border-width: 0;
-    background-color: inherit;
-} */
+
 .btn{
     display: flex;
     width: 100%;
@@ -32,7 +23,7 @@
 }
 .btn .icon{
     font-size: 2rem;
-    color:#90959D;
+    color:var(--color-primary);
 }
 
 .description{

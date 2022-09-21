@@ -102,6 +102,7 @@ const InputSection = () => {
     <div className="output_div">
       {userInputsElement}
       <input
+        data-testid="input"
         value={text}
         className={type ? "heading" : ""}
         name="text"

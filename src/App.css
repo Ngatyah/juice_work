@@ -5,29 +5,14 @@
  align-items: center;
  justify-content: center;
 }
-.container{
-  width: 50vw;
-  text-align: start;
-}
+
 .site_icon{
   background-color: #F3F4F6;
- color:#90959D;
+ color:var(--color-primary);
   position: absolute;
   right: 3rem;
   bottom: 2rem;
   padding: 0.5rem;
 }
-h5{
-  padding: 0;
-  margin: 0;
-}
-small{
-  color:#90959D;
-}
 
-@media screen and (max-width: 992px){
-  .container{
-    width: 90vw;
-  }
-  
-}
+

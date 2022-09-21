@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/*
+=====================
+     GENERAL STYLES
+=====================
+*/
+
+:root{
+
+  --color-primary:#90959D;
+  --color-green:  #347659 ;
+
+}
+h5{
+  padding: 0;
+  margin: 0;
+}
+.container{
+  width: 50vw;
+  text-align: start;
+}
+small{
+  color:var(--color-primary);
+}
+
+
+/*
+===============================================
+            MEDIA QUERIES
+=================================================
+*/
+
+/* ===========  MEDIUM SCREENS ================ */
+
+
+@media screen and (max-width: 992px){
+  .container{
+    width: 90vw;
+  }
+  
+}
+
